@@ -19,7 +19,7 @@ module.exports = function(grunt) {
                  tasks: ['compass', 'newer:jade', 'newer:premailer','newer:prettify']
              }
         },
-
+        //Export external CSS and insert into HTML markup as inline CSS
         premailer: {
             options: {
                 mode           : 'html',
@@ -48,7 +48,7 @@ module.exports = function(grunt) {
                 }
             }
         },
-
+        //Clean up
         prettify: {
             options: {
                 "condense"              : true,
