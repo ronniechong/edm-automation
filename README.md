@@ -23,7 +23,9 @@ _Note: You may need to ```sudo``` to install_
 
 ### Running the build ###
 
-```grunt```
+```
+grunt
+```
 
 ##Instructions##
 * Grunt watches any changes in Jade/SCSS and the HTML output
