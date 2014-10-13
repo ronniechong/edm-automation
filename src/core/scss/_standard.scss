@@ -1,0 +1,122 @@
+//----------------------------------
+// Standard normalising
+//----------------------------------
+
+#outlook a{padding:0;}
+
+.ReadMsgBody{width:100%;}
+
+.ExternalClass{width:100%;}
+
+.ExternalClass, .ExternalClass p, 
+.ExternalClass span, .ExternalClass font, 
+.ExternalClass td, .ExternalClass div {
+	line-height: 100%;
+}
+
+body, table, td, p, a, li, blockquote{
+	-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust:100%;
+}
+
+table, td{
+	mso-table-lspace:0pt; 
+	mso-table-rspace:0pt;
+	border-collapse: collapse;
+}
+img{
+	border:0; 
+	line-height:100%; 
+	height:auto;
+	outline:none; 
+	text-decoration:none;
+	-ms-interpolation-mode:bicubic;
+	vertical-align:bottom;
+}
+
+body[yahoo],
+html{
+    background: #ffffff;
+}
+
+
+body[yahoo]{
+	width: 100% !important;
+	margin: 0 auto; 
+	padding: 0;
+}
+
+
+body[yahoo] .mobile-visible {
+    display: none;
+}
+
+body[yahoo] .backgroundTable{
+	width: 100% !important; 
+	line-height: 100% !important; 
+	margin: 0; 
+	padding: 0; 
+	text-align: center; 
+	background: #ffffff;
+}
+body[yahoo] .mainTable{
+	margin-left: auto; 
+	margin-right: auto; 
+}
+
+
+//----------------------------------
+// Mobile view
+//----------------------------------
+
+@media screen and (max-width : 400px) {
+
+	body[yahoo] table,
+	body[yahoo] tbody,
+	body[yahoo] tr,
+	body[yahoo] td {
+	    float: left;
+	    display: block;
+	    width: 100%;
+	    height: auto;
+	    -moz-box-sizing:border-box;
+	    -webkit-box-sizing:border-box;
+	    box-sizing:border-box;
+	}
+
+	body[yahoo] img {
+        display: block;
+        width: 100%;
+        height:auto;
+
+    }
+
+	body[yahoo] .backgroundTable {
+        float: none !important;
+        overflow: hidden;
+    }
+
+
+    body[yahoo] .content-table {
+        width: 90%;
+        margin: 0px 5% 25px;
+        float: none;
+        overflow:hidden;
+    }
+
+    body[yahoo] .content-body {
+        padding:15px;
+        margin:15px auto;
+        width:90%;
+        float:none;
+        overflow:hidden;
+    }
+
+    body[yahoo] .mobile-hidden {
+        display: none !important;
+    }
+
+    body[yahoo] .mobile-visible {
+        display: block;
+    }
+}

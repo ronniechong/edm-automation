@@ -1,0 +1,48 @@
+extends ../core/jade/eatnow/base.jade
+
+block vars
+	- var settings = {baseWidth:580, columnGap:25,contentGap:15, forebgColor:"#f6f6f6"}
+
+block head
+	title EDM 1
+
+block bodyHeader
+	table.content-body(cellspacing="0" cellpadding="0" bgcolor="#ffffff" width= settings.baseWidth)
+		tr(bgcolor="#ffffff")
+			td(valign="top" align="center" style="border-collapse: collapse;" width= settings.baseWidth height="15")
+		tr
+			td.content-text(align="center" valign="top")
+				h1 EDM Header
+block bodyContent
+	table(cellspacing="0" cellpadding="0" bgcolor= settings.forebgColor width= settings.baseWidth)
+		tr(bgcolor= settings.forebgColor)
+			td(valign="top" colspan="3" align="center" style="border-collapse: collapse;" width= settings.baseWidth height="15")
+		tr
+			td.mobile-hidden(width="15")
+			td(align="left" valign="top")
+				table.content-body.content-text(cellspacing="0" cellpadding="0" bgcolor="#ffffff" width="550")
+					tr(bgcolor="#ffffff")
+						td.mobile-hidden(valign="top" colspan="3" align="center" width="550" height="15")
+
+					tr
+						td.mobile-hidden(width="15")
+						td(valign="top", align="left")
+							| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacus elit, feugiat vitae volutpat ut, aliquam eu libero. Integer blandit mollis bibendum. Curabitur lobortis faucibus vestibulum. Curabitur vel magna nibh. Sed ac ultrices ligula, eget tempus orci. Curabitur sagittis quam in ligula aliquet mollis. In vestibulum semper mollis. Nullam semper finibus nulla ut dictum. Cras dictum non ligula ac tempus.
+						td.mobile-hidden(width="15")
+
+					tr(bgcolor="#ffffff")
+						td.mobile-hidden(valign="top" colspan="3" align="center" width="550" height="15")
+			td.mobile-hidden(width="15")
+		tr(bgcolor= settings.forebgColor)
+			td(valign="top" colspan="3" align="center" style="border-collapse: collapse;" width= settings.baseWidth height="15")
+
+block bodyFooter
+	table(cellspacing="0" cellpadding="0" bgcolor="#ffffff" width= settings.baseWidth)
+		tr
+			td(align="center" valign="top")
+				table.footer-text(cellspacing="0" cellpadding="0" bgcolor="#ffffff" width="580")
+					tr
+						td(align="center", valign="top")
+							| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacus elit, feugiat vitae volutpat ut, aliquam eu libero. Integer blandit mollis bibendum. Curabitur lobortis faucibus vestibulum. Curabitur vel magna nibh. Sed ac ultrices ligula, eget tempus orci. Curabitur sagittis quam in ligula aliquet mollis. In vestibulum semper mollis. Nullam semper finibus nulla ut dictum. Cras dictum non ligula ac tempus.
+
+
