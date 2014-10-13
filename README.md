@@ -26,6 +26,8 @@ _Note: You may need to ```sudo``` to install_
 ### Running the build ###
 
 ```
+npm install
+
 grunt
 ```
 
