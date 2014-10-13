@@ -33,6 +33,7 @@ grunt
 * Compiled files are exported to ```build```
 
 ##Notes##
+* Files in ```src/core``` contains SCSS and Jade partials
 * Sample EDM design is semi-responsive
 * Only newer/modified files are compiled
 * Inline CSS HTML has a postfix ```*-inline.html```
