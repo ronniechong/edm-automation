@@ -10,25 +10,21 @@ There will be two HTML copies, one standard html with external css file and one 
 Gem Premailer
 ```
 gem install premailer
+gem install nokogiri
 ```
 Node
 ```
 http://nodejs.org/download/
 ```
 
-Grunt
-```
-npm install grunt-cli
-```
-
-_Note: You may need to ```sudo``` to install_
-
 ### Running the build ###
 
 ```
-npm install
+npm install 
+# or yarn install
 
-grunt
+npm start
+# or yarn start
 ```
 
 ##Instructions##
