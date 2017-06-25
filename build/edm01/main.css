@@ -1,39 +1,26 @@
-/* line 5, ../../src/core/scss/_standard.scss */
 #outlook a {
-  padding: 0;
-}
+  padding: 0; }
 
-/* line 7, ../../src/core/scss/_standard.scss */
 .ReadMsgBody {
-  width: 100%;
-}
+  width: 100%; }
 
-/* line 9, ../../src/core/scss/_standard.scss */
 .ExternalClass {
-  width: 100%;
-}
+  width: 100%; }
 
-/* line 11, ../../src/core/scss/_standard.scss */
 .ExternalClass, .ExternalClass p,
 .ExternalClass span, .ExternalClass font,
 .ExternalClass td, .ExternalClass div {
-  line-height: 100%;
-}
+  line-height: 100%; }
 
-/* line 17, ../../src/core/scss/_standard.scss */
 body, table, td, p, a, li, blockquote {
   -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-}
+  -ms-text-size-adjust: 100%; }
 
-/* line 22, ../../src/core/scss/_standard.scss */
 table, td {
   mso-table-lspace: 0pt;
   mso-table-rspace: 0pt;
-  border-collapse: collapse;
-}
+  border-collapse: collapse; }
 
-/* line 27, ../../src/core/scss/_standard.scss */
 img {
   border: 0;
   line-height: 100%;
@@ -41,45 +28,33 @@ img {
   outline: none;
   text-decoration: none;
   -ms-interpolation-mode: bicubic;
-  vertical-align: bottom;
-}
+  vertical-align: bottom; }
 
-/* line 37, ../../src/core/scss/_standard.scss */
 body[yahoo],
 html {
-  background: #ffffff;
-}
+  background: #ffffff; }
 
-/* line 43, ../../src/core/scss/_standard.scss */
 body[yahoo] {
   width: 100% !important;
   margin: 0 auto;
-  padding: 0;
-}
+  padding: 0; }
 
-/* line 50, ../../src/core/scss/_standard.scss */
 body[yahoo] .mobile-visible {
-  display: none;
-}
+  display: none; }
 
-/* line 54, ../../src/core/scss/_standard.scss */
 body[yahoo] .backgroundTable {
   width: 100% !important;
   line-height: 100% !important;
   margin: 0;
   padding: 0;
   text-align: center;
-  background: #ffffff;
-}
+  background: #ffffff; }
 
-/* line 62, ../../src/core/scss/_standard.scss */
 body[yahoo] .mainTable {
   margin-left: auto;
-  margin-right: auto;
-}
+  margin-right: auto; }
 
 @media screen and (max-width: 400px) {
-  /* line 74, ../../src/core/scss/_standard.scss */
   body[yahoo] table,
   body[yahoo] tbody,
   body[yahoo] tr,
@@ -90,60 +65,37 @@ body[yahoo] .mainTable {
     height: auto;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-
-  /* line 87, ../../src/core/scss/_standard.scss */
+    box-sizing: border-box; }
   body[yahoo] img {
     display: block;
     width: 100%;
-    height: auto;
-  }
-
-  /* line 94, ../../src/core/scss/_standard.scss */
+    height: auto; }
   body[yahoo] .backgroundTable {
     float: none !important;
-    overflow: hidden;
-  }
-
-  /* line 100, ../../src/core/scss/_standard.scss */
+    overflow: hidden; }
   body[yahoo] .content-table {
     width: 90%;
     margin: 0px 5% 25px;
     float: none;
-    overflow: hidden;
-  }
-
-  /* line 107, ../../src/core/scss/_standard.scss */
+    overflow: hidden; }
   body[yahoo] .content-body {
     padding: 15px;
     margin: 15px auto;
     width: 90%;
     float: none;
-    overflow: hidden;
-  }
-
-  /* line 115, ../../src/core/scss/_standard.scss */
+    overflow: hidden; }
   body[yahoo] .mobile-hidden {
-    display: none !important;
-  }
-
-  /* line 119, ../../src/core/scss/_standard.scss */
+    display: none !important; }
   body[yahoo] .mobile-visible {
-    display: block;
-  }
-}
-/* line 3, ../../src/edm01/main.scss */
+    display: block; } }
+
 .content-text {
   font-family: arial, sans-serif;
   font-size: 13px;
-  color: #414042;
-}
+  color: #414042; }
 
-/* line 9, ../../src/edm01/main.scss */
 .footer-text {
   font-family: arial, sans-serif;
   font-size: 11px;
   color: #414042;
-  margin: 15px auto;
-}
+  margin: 15px auto; }
