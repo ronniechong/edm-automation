@@ -35,8 +35,8 @@ module.exports = function (grunt) {
         css: [],
         removeClasses: false,
         removeScripts: true,
-        removeComments: true,
-        preserveStyles: false,
+        removeComments: false,
+        preserveStyles: true,
         lineLength: 65,
         ioException: false,
         verbose: true
@@ -60,7 +60,7 @@ module.exports = function (grunt) {
       options: {
         "condense": true,
         "preserveBOM": false,
-        "indent": 4,
+        "indent": 2,
         "indent_char": " ",
         "indent_scripts": "normal",
         "wrap_line_length": 0,

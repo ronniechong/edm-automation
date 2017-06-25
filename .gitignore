@@ -1,2 +1,6 @@
 *.scssc
 node_modules/
+src/*
+build/
+!src/core/
+!src/example/
