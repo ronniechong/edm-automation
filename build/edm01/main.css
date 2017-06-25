@@ -12,14 +12,39 @@
 .ExternalClass td, .ExternalClass div {
   line-height: 100%; }
 
-body, table, td, p, a, li, blockquote {
+body, table, td, tr, span, div, p, a, ul, li, blockquote {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%; }
 
 table, td {
-  mso-table-lspace: 0pt;
-  mso-table-rspace: 0pt;
-  border-collapse: collapse; }
+  border-collapse: collapse;
+  mso-table-lspace: 0pt !important;
+  mso-table-rspace: 0pt !important; }
+
+table {
+  border-spacing: 0 !important;
+  border-collapse: collapse !important;
+  margin: 0 auto !important; }
+
+*[x-apple-data-detectors],
+.x-gmail-data-detectors,
+.x-gmail-data-detectors *,
+.aBn {
+  border-bottom: 0 !important;
+  cursor: default !important;
+  color: inherit !important;
+  text-decoration: none !important;
+  font-size: inherit !important;
+  font-family: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important; }
+
+.a6S {
+  display: none !important;
+  opacity: 0.01 !important; }
+
+img.g-img + div {
+  display: none !important; }
 
 img {
   border: 0;
@@ -32,15 +57,22 @@ img {
 
 body[yahoo],
 html {
-  background: #ffffff; }
-
-body[yahoo] {
-  width: 100% !important;
-  margin: 0 auto;
-  padding: 0; }
+  background: #ffffff;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  height: 100% !important;
+  width: 100% !important; }
 
 body[yahoo] .mobile-visible {
   display: none; }
+
+body[yahoo].body {
+  mso-line-height-rule: exactly; }
+
+body[yahoo] .center {
+  width: 100%;
+  background: #ffffff;
+  text-align: left; }
 
 body[yahoo] .backgroundTable {
   width: 100% !important;
@@ -53,14 +85,6 @@ body[yahoo] .backgroundTable {
 body[yahoo] .mainTable {
   margin-left: auto;
   margin-right: auto; }
-
-a[x-apple-data-detectors] {
-  color: inherit !important;
-  text-decoration: none !important;
-  font-size: inherit !important;
-  font-family: inherit !important;
-  font-weight: inherit !important;
-  line-height: inherit !important; }
 
 @media screen and (max-width: 639px) {
   body[yahoo] table,
