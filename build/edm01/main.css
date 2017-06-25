@@ -54,7 +54,15 @@ body[yahoo] .mainTable {
   margin-left: auto;
   margin-right: auto; }
 
-@media screen and (max-width: 400px) {
+a[x-apple-data-detectors] {
+  color: inherit !important;
+  text-decoration: none !important;
+  font-size: inherit !important;
+  font-family: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important; }
+
+@media screen and (max-width: 639px) {
   body[yahoo] table,
   body[yahoo] tbody,
   body[yahoo] tr,
@@ -85,9 +93,11 @@ body[yahoo] .mainTable {
     float: none;
     overflow: hidden; }
   body[yahoo] .mobile-hidden {
-    display: none !important; }
+    display: none !important;
+    width: 0 !important; }
   body[yahoo] .mobile-visible {
-    display: block; } }
+    display: block !important;
+    max-height: none !important; } }
 
 .content-text {
   font-family: arial, sans-serif;

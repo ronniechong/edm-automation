@@ -1,3 +1,5 @@
+@import 'settings';
+
 //----------------------------------
 // Standard normalising
 //----------------------------------
@@ -36,7 +38,7 @@ img{
 
 body[yahoo],
 html{
-    background: #ffffff;
+    background: $body-color;
 }
 
 
@@ -57,19 +59,27 @@ body[yahoo] .backgroundTable{
 	margin: 0; 
 	padding: 0; 
 	text-align: center; 
-	background: #ffffff;
+	background: $body-color;
 }
 body[yahoo] .mainTable{
 	margin-left: auto; 
 	margin-right: auto; 
 }
 
+a[x-apple-data-detectors] {
+  color: inherit !important;
+  text-decoration: none !important;
+  font-size: inherit !important;
+  font-family: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+}
 
 //----------------------------------
 // Mobile view
 //----------------------------------
 
-@media screen and (max-width : 400px) {
+@media screen and (max-width : $mobile-breakpoint) {
 
 	body[yahoo] table,
 	body[yahoo] tbody,
@@ -88,7 +98,6 @@ body[yahoo] .mainTable{
         display: block;
         width: 100%;
         height:auto;
-
     }
 
 	body[yahoo] .backgroundTable {
@@ -114,9 +123,11 @@ body[yahoo] .mainTable{
 
     body[yahoo] .mobile-hidden {
         display: none !important;
+        width: 0 !important;
     }
 
     body[yahoo] .mobile-visible {
-        display: block;
+        display: block !important;
+        max-height:none !important;
     }
 }
