@@ -1,5 +1,5 @@
 # EDM automation
-This is a simple EDM automation to convert Jade/Compass content into email friendly HTML template.
+This is a simple EDM automation to convert Jade/SCSS content into email friendly HTML template.
 
 There will be two HTML copies, one standard html with external css file and one with inline style css
 
